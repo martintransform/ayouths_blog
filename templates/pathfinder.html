@@ -1,0 +1,704 @@
+{% extends 'base.html' %}
+
+
+{% load static %}
+
+
+{% block content %}
+
+<div class="body">
+  <!-- pageintro -->
+  <section class="page-header page-header-modern page-header-background page-header-background-md py-0 overlay overlay-color-primary overlay-show overlay-op-6" style="background-image: url({% static 'img/intro.jpg' %});">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-5 order-2 order-sm-1 align-self-center p-static">
+
+        <div class="overflow-hidden pb-2">
+          <h1 class="text-10 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300"><strong>Pathfinder</strong></h1>
+        </div>
+        <div class="overflow-hidden">
+          <ul class="breadcrumb breadcrumb-light d-block appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="100">
+            <li><a href="#">Ministries</a></li>
+            <li class="active">Pathfinder</li>
+          </ul>
+        </div>
+
+        <div class="appear-animation d-inline-block" data-appear-animation="rotateInUpRight" data-appear-animation-delay="500">
+          <span class="arrow hlt" style="top: 40px;"></span>
+        </div>
+      </div>
+      <div class="col-sm-7 order-1 order-sm-2 align-items-end justify-content-end d-flex pt-5">
+        <div style="min-height: 350px;" class="overflow-hidden">
+          <img  alt="" src="img/custom-header.png" class="img-fluid appear-animation" data-appear-animation="slideInUp" data-appear-animation-delay="600" data-appear-animation-duration="1s">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <div class="col-sm-9">
+
+    <h2 class="word-rotator letters scale mb-2">
+      <span>We Are The </span>
+      <span class="word-rotator-words">
+        <b class="is-visible">Powerful</b>
+        <b>Youthful</b>
+        <b>Mighty</b>
+      </span>
+      <span>Pathfinders.</span>
+    </h2>
+  </div>
+
+
+  <div class="col-lg-12">
+
+    <div class="accordion accordion-lg" id="accordion5">
+      <div class="card card-default">
+        <div class="card-header">
+          <h4 class="card-title m-0">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion5" href="#collapse5One">
+              Definition
+            </a>
+          </h4>
+        </div>
+        <div id="collapse5One" class="collapse show">
+          <div class="card-body">
+            <p class="mb-0">The Pathfinder club is the second club in the Adventist Youth Movement.</p>
+            <img class="float-left" width="400" height="357" src="{% static 'img/patfinder_thumb.jpg' %}" alt="">
+            <p>"Pathfindering" conjures up images of marching, camping, curious sports, bugs and bats for those who are familiar with it. Broadening their eyes on the world and building a relationship with God are the twin goals of this group, designed for children aged 10-15 years. Of nearly 2 million members worldwide, this group funded by the Seventh-day Adventist Church welcomes any youth who agrees to abide by the Pathfinder Pledge and Law irrespective of their church affiliations.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card card-default">
+        <div class="card-header">
+          <h4 class="card-title m-0">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion5" href="#collapse5Two">
+              Leadership
+            </a>
+          </h4>
+        </div>
+        <div id="collapse5Two" class="collapse">
+          <div class="card-body">
+            <p class="mb-0">Volunteer leadership, capable of numerous excellent skills and interests, is, above all, firm faithful to Jesus Christ and knows the path they follow to eternal life. We make the Pathfinder club a laboratory of exploration in which development and learning are a synonym for fun. Not a failure is predicted, but all tasks are a learning tool.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card card-default">
+        <div class="card-header">
+          <h4 class="card-title m-0">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion5" href="#collapse5Three">
+              Activities
+            </a>
+          </h4>
+        </div>
+        <div id="collapse5Three" class="collapse">
+          <div class="card-body">
+            <p class="mb-0">The creativity of the leadership and members of a club is the key limiting factor. Activities support a variety of initiatives in their community and around the world, including research on nature and the environment, hiking and high-adventure excursions. Walking tests each member's unique talents. Pathfindering is based on an old-fashioned six level program with about 350 specialized areas for art and crafts, water, nature, household arts, leisure, spiritual development, health and professional education. These are often the starting point for professions or hobbies in life.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- navigation -->
+  <div class="row">
+    <div class="col">
+
+      <div class="tabs tabs-bottom tabs-center tabs-simple">
+        <ul class="nav nav-tabs">
+          <li class="nav-item active">
+            <a class="nav-link" href="#tabsNavigationSimple1" data-toggle="tab">Aim/Motto/Pledge/Law</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tabsNavigationSimple2" data-toggle="tab">Achievement Classes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tabsNavigationSimple3" data-toggle="tab">Uniform Specification</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tabsNavigationSimple4" data-toggle="tab">Pathfinder Anthem</a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="tabsNavigationSimple1">
+            <div class="text-center">
+              <h4>AIM</h4>
+              <p>The Advent Message to all the world in my generation.</p>
+              <h4>MOTTO</h4>
+              <p>The love of Christ compels us.</p>
+              <h4>PlEDGE</h4>
+              <ul>
+                <li>By the grace of God</li>
+                <li>I will be pure and kind and true</li>
+                <li>I will keep the Pathfinder Law</li>
+                <li>I will be a servant of God</li>
+                <li>and a friend to man.</li>
+              </ul>
+              <h4>LAW</h4>
+              <ul>
+                <li>Keep the morning watch</li>
+                <li>Do my honest part</li>
+                <li>Care for my body.</li>
+                <li>Keep a level eye.</li>
+                <li>Be courteous and obedient.</li>
+                <li>Walk softly in the sanctuary.</li>
+                <li>Keep a song in my heart.</li>
+                <li>Go on God's errands.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="tab-pane" id="tabsNavigationSimple2">
+            <h2>Why Achievement Classes?</h2>
+            <p>Years ago when your fathers and mothers were boys and girls, a spirit of prophecy called you to unite all young people together to help complete the task of bringing Advent to the world in this century. The Adventist Youth Society was formed in response to these and other similar messages. And so the years went by, and boys and girls from all over the world came together and prayed and studied and went out to work. A huge job was done, and the once small band has increased to thousands of people and spread around the globe.</p>
+            <p>But how did Pathfinder lessons come into being? When the boys and girls met and worked and became involved in AY / AJY events, the leaders felt the need to provide more ways to help them to develop a strong Christian character in order to better understand how to serve God when they are needed. Several suggestions were found in the writings of the Spirit of Prophetry during the earnest analysis given to the issue and some of them are cited here for your inspiration and encouragement:</p>
+            <q cite="">“The children are to be trained to become missionaries; they must be helped to understand distinctly what they must do to be saved.” {Counsels to Parents, Teachers, and Students, page 168}. And the best preparation “is the harmonious development of the physical, the mental, and the spiritual powers. It prepares the student for the joy of service in this world and for the higher joy of wider service in the world to come.” {Education, page 13}.</q>
+            <div class="col-lg-12">
+
+              <div class="accordion accordion-lg" id="accordion5">
+                <div class="card card-default">
+                  <div class="card-header">
+                    <h4 class="card-title m-0">
+                      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion5" href="#collapse5One">
+                        Friend Class
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapse5One" class="collapse show">
+                    <div class="card-body">
+                      <h2>INSIGNIA</h2>
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <div class="tabs tabs-primary">
+                            <ul class="nav nav-tabs">
+                              <li class="nav-item active">
+                                <a class="nav-link" href="#popularColors1" data-toggle="tab">Class Name</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#recentColors1" data-toggle="tab">Pin</a>
+                              </li>
+                            </ul>
+                            <div class="tab-content">
+                              <div id="popularColors1" class="tab-pane active">
+                                <img class="float-left" width="400" height="357" src="{% static 'img/Friend name.jpg' %}" alt="">
+                                <h3>First Class Name</h3>
+                              </div>
+                              <div id="recentColors1" class="tab-pane">
+                                <img class="float-left" width="400" height="357" src="{% static 'img/Friend Pin.jpg' %}" alt="">
+                                <h3>Pin showing that student has finished the Class</h3>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-12">
+                          <div class="tabs tabs-primary">
+                            <ul class="nav nav-tabs">
+                              <li class="nav-item active">
+                                <a class="nav-link" href="#popularColors" data-toggle="tab">Friend Ribbon</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#recentColors" data-toggle="tab">Friend Chevron</a>
+                              </li>
+                            </ul>
+                            <div class="tab-content">
+                              <div id="popularColors" class="tab-pane active">
+                                <img class="float-left" width="400" height="357" src="{% static 'img/Friend Ribbon.jpg' %}" alt="">
+                                <h3>Friend Ribbon - For the Advanced Class</h3>
+                              </div>
+                              <div id="recentColors" class="tab-pane">
+                                <img class="float-left" width="400" height="357" src="{% static 'img/Friend Individual Chevron.jpg' %}" alt="">
+                                <h3>Friend Chevron - To be placed on the Left Sleeve</h3>
+                                <ul>
+                                  <li>Be 10 years old and/or in Grade 5 or its equivalent</li>
+                                  <li>Be an active member of the AJY Society or Pathfinder Club</li>
+                                  <li>Memorize and explain the Pathfinder Pledge and Law.</li>
+                                  <li>Read the book The Happy Path (or similar book on the Pledge and Law).</li>
+                                  <li>Have a current Book Club Certificate.</li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card card-default">
+                    <div class="card-header">
+                      <h4 class="card-title m-0">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion5" href="#collapse5Two">
+                          Companion Class
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="collapse5Two" class="collapse">
+                      <div class="card-body">
+                        <div class="row">
+
+                          <div class="col-lg-12">
+                            <div class="tabs tabs-primary">
+                              <ul class="nav nav-tabs">
+                                <li class="nav-item active">
+                                  <a class="nav-link" href="#popularColor" data-toggle="tab">Class Name</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#recentColor" data-toggle="tab">Pin</a>
+                                </li>
+                              </ul>
+                              <div class="tab-content">
+                                <div id="popularColor" class="tab-pane active">
+                                  <img class="float-left" width="400" height="357" src="{% static 'img/Companion name.jpg' %}" alt="">
+                                  <h3>Second Class Name</h3>
+                                </div>
+                                <div id="recentColor" class="tab-pane">
+                                  <img class="float-left" width="400" height="357" src="{% static 'img/Companion Pin.jpg' %}" alt="">
+                                  <h3>Pin showing that student has finished the Class</h3>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-12">
+                            <div class="tabs tabs-primary">
+                              <ul class="nav nav-tabs">
+                                <li class="nav-item active">
+                                  <a class="nav-link" href="#popularColo" data-toggle="tab">Companion Ribbon</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#recentColo" data-toggle="tab">Companion Chevron</a>
+                                </li>
+                              </ul>
+                              <div class="tab-content">
+                                <div id="popularColo" class="tab-pane active">
+                                  <img class="float-left" width="400" height="357" src="{% static 'img/Companion Ribbon.jpg' %}" alt="">
+                                  <h3>Companion Ribbon. For the Advanced Class</h3>
+                                </div>
+                                <div id="recentColo" class="tab-pane">
+                                  <img class="float-left" width="400" height="357" src="{% static 'img/Companion Individual Chevron.jpg' %}" alt="">
+                                  <h3>Companion Chevron. To be placed on the Left Sleeve</h3>
+                                  <ul>
+                                    <li>Be 11 years old and/or in grade 6 or its equivalent</li>
+                                    <li>Be an active member of the Pathfinder Club.</li>
+                                    <li>Learn or review the meaning of the Pathfinder Pledge and illustrate its meaning in an interesting way.</li>
+                                    <li>Read the book The Happy Path or similar book on the Pledge and Law if not previously read.</li>
+                                    <li>Have a current Book Club Certificate and write at least a paragraph of review on one book of your choice</li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card card-default">
+                    <div class="card-header">
+                      <h4 class="card-title m-0">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion5" href="#collapse5Three">
+                          Explorer
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="collapse5Three" class="collapse">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-lg-12">
+                            <div class="tabs tabs-primary">
+                              <ul class="nav nav-tabs">
+                                <li class="nav-item active">
+                                  <a class="nav-link" href="#popularCol" data-toggle="tab">Class Name</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#recentCol" data-toggle="tab">Pin</a>
+                                </li>
+                              </ul>
+                              <div class="tab-content">
+                                <div id="popularCol" class="tab-pane active">
+                                  <img class="float-left" width="400" height="357" src="{% static 'img/Explorer name.jpg' %}" alt="">
+                                  <h3>Third Class Name</h3>
+                                </div>
+                                <div id="recentCol" class="tab-pane">
+                                  <img class="float-left" width="400" height="357" src="{% static 'img/Explorer Pin.jpg' %}" alt="">
+                                  <h3>Pin showing that student has finished the Class</h3>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-12">
+                            <div class="tabs tabs-primary">
+                              <ul class="nav nav-tabs">
+                                <li class="nav-item active">
+                                  <a class="nav-link" href="#popularCo" data-toggle="tab">Explorer Ribbon</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#recentCo" data-toggle="tab">Explorer Chevron</a>
+                                </li>
+                              </ul>
+                              <div class="tab-content">
+                                <div id="popularCo" class="tab-pane active">
+                                  <img class="float-left" width="400" height="357" src="{% static 'img/Explorer Ribbon.jpg' %}" alt="">
+                                  <h3>Explorer Ribbon. For the Advanced Class</h3>
+                                </div>
+                                <div id="recentCo" class="tab-pane">
+                                  <img class="float-left" width="400" height="357" src="{% static 'img/Explorer Individual Chevron.jpg' %}" alt="">
+                                  <h3>Explorer Individual Chevron</h3>
+                                  <ul>
+                                    <li>Be 12 years old and/or in Grade 7 or its equivalent.</li>
+                                    <li>Be an active member of the AJY Society and Pathfinder Club.</li>
+                                    <li>Learn or review the meaning of the Pathfinder Law and demonstrate your understanding by participating in one of the following: role play, panel discussion, essay, or prepare a project of your choice.</li>
+                                    <li>Read the book "The Happy Path" if not previously read.</li>
+                                    <li>Have a current Book Club Certificate and write at least a paragraph of review on each book.</li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card card-default">
+                    <div class="card-header">
+                      <h4 class="card-title m-0">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion5" href="#collapse5wk">
+                          Ranger
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="collapse5wk" class="collapse">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-lg-12">
+                            <div class="tabs tabs-primary">
+                              <ul class="nav nav-tabs">
+                                <li class="nav-item active">
+                                  <a class="nav-link" href="#popular" data-toggle="tab">Class Name</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#recent" data-toggle="tab">Pin</a>
+                                </li>
+                              </ul>
+                              <div class="tab-content">
+                                <div id="popular" class="tab-pane active">
+                                  <img class="float-left" width="400" height="357" src="{% static 'img/Ranger name.jpg' %}" alt="">
+                                  <h3>Fourth Class Name</h3>
+                                </div>
+                                <div id="recent" class="tab-pane">
+                                  <img class="float-left" width="400" height="357" src="{% static 'img/Ranger Pin.jpg' %}" alt="">
+                                  <h3>Pin showing that student has finished the Class</h3>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-12">
+                            <div class="tabs tabs-primary">
+                              <ul class="nav nav-tabs">
+                                <li class="nav-item active">
+                                  <a class="nav-link" href="#popul" data-toggle="tab">Ranger Ribbon</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#recen" data-toggle="tab">Ranger Chevron</a>
+                                </li>
+                              </ul>
+                              <div class="tab-content">
+                                <div id="popul" class="tab-pane active">
+                                  <img class="float-left" width="400" height="357" src="{% static 'img/Ranger Ribbon.jpg' %}" alt="">
+                                  <h3>Ranger Ribbon - For the Advanced Class</h3>
+                                </div>
+                                <div id="recen" class="tab-pane">
+                                  <img class="float-left" width="400" height="357" src="{% static 'img/Ranger Individual Chevron.jpg' %}" alt="">
+                                  <h3>Ranger Chevron - To be placed on the Left Sleeve</h3>
+                                  <ul>
+                                    <li>Be a teenager 13 years of age, and/or in Grade 8 or its equivalent.</li>
+                                    <li>Memorize and understand the Adventist Youth Aim and Motto.</li>
+                                    <li>Be an active member of the Pathfinder Club.</li>
+                                    <li>Select and read three books of your choice from the teen Book Club List.</li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card card-default">
+                      <div class="card-header">
+                        <h4 class="card-title m-0">
+                          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion5" href="#collapse5One">
+                            Voyager
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="collapse5One" class="collapse">
+                        <div class="card-body">
+                          <div class="row">
+                            <div class="col-lg-12">
+                              <div class="tabs tabs-primary">
+                                <ul class="nav nav-tabs">
+                                  <li class="nav-item active">
+                                    <a class="nav-link" href="#pop" data-toggle="tab">Class Name</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#rec" data-toggle="tab">Pin</a>
+                                  </li>
+                                </ul>
+                                <div class="tab-content">
+                                  <div id="pop" class="tab-pane active">
+                                    <img class="float-left" width="400" height="357" src="{% static 'img/Voyager name.jpg' %}" alt="">
+                                    <h3>Fifth Class Name</h3>
+                                  </div>
+                                  <div id="rec" class="tab-pane">
+                                    <img class="float-left" width="400" height="357" src="{% static 'img/Voyager Pin.jpg' %}" alt="">
+                                    <h3>Pin showing that student has finished the Class</h3>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-12">
+                              <div class="tabs tabs-primary">
+                                <ul class="nav nav-tabs">
+                                  <li class="nav-item active">
+                                    <a class="nav-link" href="#po" data-toggle="tab">Voyager Ribbon</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#re" data-toggle="tab">Voyager Chevron</a>
+                                  </li>
+                                </ul>
+                                <div class="tab-content">
+                                  <div id="po" class="tab-pane active">
+                                    <img class="float-left" width="400" height="357" src="{% static 'img/Voyager Ribbon.jpg' %}" alt="">
+                                    <h3>Voyager Ribbon - For the Advanced Class</h3>
+                                  </div>
+                                  <div id="re" class="tab-pane">
+                                    <img class="float-left" width="400" height="357" src="{% static 'img/Voyager Individual Chevron.jpg' %}" alt="">
+                                    <h3>Voyager Chevron - To be placed on the Left Sleeve</h3>
+                                    <ul>
+                                      <li>Be a teenager 14 years of age, and/or in grade 9 or its equivalent.</li>
+                                      <li>Through memorization and discussion, explain the meaning of the Adventist Youth Pledge.</li>
+                                      <li>Be an active member of Pathfinders</li>
+                                      <li>Select and read three books of your choice from the Teen Book Club list.</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+
+          </div>
+          <!-- uniform specification -->
+
+          <div class="tab-pane" id="tabsNavigationSimple3">
+            <div class="tab-pane active" id="tabsNavigationSimple">
+              <div class="text-center">
+
+
+
+                <h2>Uniform</h2>
+                <p>The standard Pathfinder helps to make the Pathfinder programme. This reflects the values and principles of the worldwide community. Any member of this association becomes a very important representative of the group, and the uniform should help to make the club aware of its identity, which the adventist youth of today rightly reflects. This fails to achieve its function if the uniform is worn like ordinary clothes.</p>
+
+                <div class="col-lg-12">
+
+                  <div class="accordion accordion-lg" id="accordion5">
+                    <div class="card card-default">
+                      <div class="card-header">
+                        <h4 class="card-title m-0">
+                          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion5" href="#collapse5One">
+                            Front Shirt
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="collapse5One" class="collapse show">
+                        <div class="card-body">
+                          <div class="container py-4">
+
+                            <div class="row">
+                              <div class="col">
+                                <div class="cd-product-viewer-wrapper" data-frame="16" data-friction="0.33">
+                                  <div>
+                                    <figure class="product-viewer">
+                                      <img src="{% static 'img/Pathfinder Insignia Positions.jpg' %}" alt="Adventure-anthem">
+                                      <div class="product-sprite" data-image="{% static 'img/Pathfinder Insignia Positions.jpg' %}"></div>
+                                    </figure>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card card-default">
+                      <div class="card-header">
+                        <h4 class="card-title m-0">
+                          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion5" href="#collapse5Two">
+                            Front Shirt with Sash
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="collapse5Two" class="collapse">
+                        <div class="card-body">
+                          <div class="container py-4">
+
+                            <div class="row">
+                              <div class="col">
+                                <div class="cd-product-viewer-wrapper" data-frame="16" data-friction="0.33">
+                                  <div>
+                                    <figure class="product-viewer">
+                                      <img src="{% static 'img/Pathfinder Insignia Positions on Shirt.jpg' %}" alt="Adventure-anthem">
+                                      <div class="product-sprite" data-image="{% static 'img/Pathfinder Insignia Positions on Shirt.jpg' %}"></div>
+                                    </figure>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card card-default">
+                      <div class="card-header">
+                        <h4 class="card-title m-0">
+                          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion5" href="#collapse5Three">
+                            Right Sleeve
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="collapse5Three" class="collapse">
+                        <div class="card-body">
+                          <div class="row">
+                            <div class="col">
+                              <div class="cd-product-viewer-wrapper" data-frame="16" data-friction="0.33">
+                                <div>
+                                  <figure class="product-viewer">
+                                    <img src="{% static 'img/Uniform Right Sleeve.jpg' %}" alt="Adventure-anthem">
+                                    <div class="product-sprite" data-image="{% static 'img/Uniform Right Sleeve.jpg' %}"></div>
+                                  </figure>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card card-default">
+                      <div class="card-header">
+                        <h4 class="card-title m-0">
+                          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion5" href="#collapse5Four">
+                            Left Sleeve
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="collapse5Four" class="collapse">
+                        <div class="card-body">
+                          <div class="row">
+                            <div class="col">
+                              <div class="cd-product-viewer-wrapper" data-frame="16" data-friction="0.33">
+                                <div>
+                                  <figure class="product-viewer">
+                                    <img src="{% static 'img/Uniform Left Sleeve first option.jpg' %}" alt="Adventure-anthem">
+                                    <div class="product-sprite" data-image="{% static 'img/Uniform Left Sleeve first option.jpg' %}"></div>
+                                  </figure>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card card-default">
+                      <div class="card-header">
+                        <h4 class="card-title m-0">
+                          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion5" href="#collapse5Fifth">
+                            Left Sleeve - Other Options
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="collapse5Fifth" class="collapse">
+                        <div class="card-body">
+                          <div class="row">
+                            <div class="col">
+                              <div class="cd-product-viewer-wrapper" data-frame="16" data-friction="0.33">
+                                <div>
+                                  <figure class="product-viewer">
+                                    <img src="{% static 'img/Uniform Left Sleeve.jpg' %}" alt="Adventure-anthem">
+                                    <div class="product-sprite" data-image="{% static 'img/Uniform Left Sleeve.jpg' %}"></div>
+                                  </figure>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <!-- pathfinder Anthem -->
+
+          <div class="tab-pane" id="tabsNavigationSimple4">
+            <div class="tab-pane active" id="tabsNavigationSimple">
+              <div class="text-center">
+
+                <div class="col-lg-12">
+                  <div class="container py-4">
+
+                    <div class="row">
+                      <div class="col">
+                        <div class="cd-product-viewer-wrapper" data-frame="16" data-friction="0.33">
+                          <div>
+                            <figure class="product-viewer">
+                              <img src="{% static 'img/pathfinder-song.jpg' %}" alt="Adventure-anthem">
+                              <div class="product-sprite" data-image="{% static 'img/pathfinder-song.jpg' %}"></div>
+                            </figure>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+  {% endblock content %}
